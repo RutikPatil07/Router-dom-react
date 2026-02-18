@@ -1,0 +1,80 @@
+.user-list {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.user-list-head {
+    font-weight: bold;
+    background: #eee;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    padding: 5px;
+}
+
+.actions svg{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.actions button {
+    margin-right: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.form button {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    padding: 6px 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    color:white;
+    transition: 0.3s ease;
+}
+
+/*ADD DATA*/
+.add-btn {
+  background: linear-gradient(45deg, #28a745, #20c997);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.add-btn:hover {
+  background: linear-gradient(45deg, #218838, #17a2b8);
+  transform: scale(1.1);
+}
+
+/*UPDATE*/
+.update-btn{
+    background-color: #007bff; 
+    margin-right: 6px;
+}
+
+.update-btn:hover {
+    background-color: #0056b3;
+}
+
+/*DELETE*/
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover{
+    background-color: #b52a37;
+}
